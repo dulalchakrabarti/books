@@ -1,0 +1,130 @@
+**Creating a structured guide**
+
+I need to include citations for any referenced information. The guide should cover steps like mobile screen recording, geotagging, installing the Gemini app, and saving recordings for insurance claims. I'll structure it with headings and bold lead-ins, but no need for a comparison table. A checklist and workflow might be helpful. For mobile recording, I'll mention Android and iOS options. I'll also include details on geotagging and voice prompts, ensuring compliance and file naming. I'll make sure to add citations where needed. Let's get started!
+### Live mobile recording workflow for GenZ farmer demos
+
+You’re building something that matters—clear, auditable steps GenZ farmers can follow and insurers can trust. Below is a modular, reproducible workflow you can use to record live, step‑by‑step demos on a phone: geotagging crop images, installing and activating Gemini voice, getting a voice‑driven table of crop details, and saving the recording for claims.
+
+---
+
+## Capture setup and screen recording
+
+- **Device prep:**  
+  - **Battery & storage:** Ensure >30% battery and at least 2–3 GB free space.  
+  - **Network:** Stable 4G/5G or Wi‑Fi for voice and uploads.  
+  - **Location services:** Turn on device Location (GPS) for geotagging.
+
+- **Screen recording (Android/iOS):**  
+  - **Android:** Use the built‑in Screen Recorder from Quick Settings; enable microphone audio to capture your narration.  
+  - **iOS:** Use Control Center → Screen Recording; long‑press to enable microphone audio.  
+  - **Framing:** Record in portrait for app flows; switch to landscape only if maps or tables need width.  
+  - **Privacy:** Hide personal notifications (Do Not Disturb) and avoid capturing unrelated apps.
+
+- **On‑camera segments (optional):**  
+  - If demonstrating field context, switch to rear camera briefly, then return to screen recording.
+
+> **Tip:** Gemini Live supports camera and screen sharing—use it to narrate while showing the app flow if available on your device and region.
+
+---
+
+## Geotagging crop images (field capture)
+
+- **Enable geotagging:**  
+  - **Camera app settings:** Turn on “Save location” or “Geotag photos.”  
+  - **Maps check:** Open Maps to confirm GPS lock before capturing.
+
+- **Capture protocol:**  
+  - **Angles:** Take 3–5 images—wide plot view, mid‑range canopy, close‑up leaf/fruit.  
+  - **Context shot:** Include a landmark or plot marker for visual verification.  
+  - **Narration:** State farmer ID/plot ID, crop type, date/time, and village/district while recording.
+
+- **Verification:**  
+  - **Gallery/Photos:** Open the image details to confirm location metadata (lat/long) is present.  
+  - **Fallback:** If geotag fails, record a short clip with Maps showing your blue dot at the plot, then retake photos.
+
+> **Note:** Some OEM camera apps or privacy modes disable geotagging—always verify metadata immediately after capture.
+
+---
+
+## Gemini app installation and voice activation
+
+- **Install:**  
+  - Open the app store, search “Gemini,” install, and sign in with a Google account.  
+  - Grant microphone and camera permissions for voice and image features.
+
+- **Activate voice:**  
+  - In Gemini, enable voice input and test a short prompt (“What’s the weather?”).  
+  - If available, try Gemini Live with camera/screen sharing to demonstrate real‑time guidance.
+
+- **Image + voice flow (optional):**  
+  - Capture or select crop images and ask Gemini to analyze them—many tutorials show integrating camera capture and content extraction with Gemini’s vision capabilities.
+
+> **Reminder:** Availability of Gemini Live features varies by device/region; if screen sharing isn’t present, proceed with standard voice prompts.
+
+---
+
+## Voice prompt to tabular response (crop type, growth stage, health)
+
+- **Prompt design:**  
+  - **Context:** “You are assisting a GenZ farmer. Analyze the provided crop images and my voice notes.”  
+  - **Structure request:** “Return a table with columns: Crop type, Growth stage, Health status, Key indicators, Confidence (0–1).”  
+  - **Constraints:** “Use concise entries; avoid speculative claims; cite visible indicators.”
+
+- **Example voice prompt (spoken while recording):**  
+  - “Analyze these geotagged images of the plot. Based on leaf shape, canopy density, and visible panicles, identify the crop type, estimate growth stage, and assess health. Return a table with columns: Crop type, Growth stage, Health status, Key indicators, Confidence. If uncertain, mark ‘Needs field verification’ and state why.”
+
+- **Follow‑ups:**  
+  - “Add a second row for suspected nutrient deficiency and list visible symptoms.”  
+  - “Include a short note on recommended next observation within 7 days.”
+
+- **Capture the output:**  
+  - Record the on‑screen table response.  
+  - If the app returns text, scroll slowly and read it aloud for the recording.
+
+> **Gemini Live can combine camera and screen sharing for richer demos; use it when available to show both the field view and the table response. Tutorials also demonstrate image capture and analysis flows with Gemini’s vision features.
+
+---
+
+## Save, name, and package the recording for insurance claims
+
+- **File naming (auditable):**  
+  - Format: `YYYYMMDD_FarmerID_PlotID_Crop_Device_GPS-Verified.mp4`  
+  - Example: `20260115_F123_P07_Rice_Pixel7_GPS-Verified.mp4`
+
+- **Metadata bundle:**  
+  - **Primary:** The screen recording MP4.  
+  - **Evidence:** Original geotagged images (JPEG/HEIC), a screenshot of image location details, and a short Maps clip showing the plot location.  
+  - **Transcript:** Export or manually note the voice prompts and the table response.  
+  - **Checklist:** A one‑page PDF with steps completed and timestamps.
+
+- **Integrity & privacy:**  
+  - Keep farmer consent on record (audio at the start: “Consent recorded on [date] for documentation and claim submission”).  
+  - Avoid capturing unrelated personal data; blur if needed before submission.
+
+- **Submission:**  
+  - Upload via the project portal or insurer’s app; verify successful upload and retain local + cloud backups.
+
+---
+
+## Reproducible checklist (use during recording)
+
+1. **Location on; geotag enabled; GPS lock confirmed.**  
+2. **Record start; microphone on; DND enabled.**  
+3. **Capture 3–5 crop images; verify geotags.**  
+4. **Open Gemini; voice activated; permissions granted.**  
+5. **Speak structured prompt; request tabular output.**  
+6. **Record the table; read key fields aloud.**  
+7. **Save MP4 with auditable filename.**  
+8. **Bundle images, location screenshots, transcript, checklist.**  
+9. **Upload; confirm receipt; backup.**
+
+---
+
+### Optional enhancements
+
+- **Standardized prompt templates:** Keep a reusable prompt card for each crop (rice, wheat, maize) with growth stage cues.  
+- **Confidence calibration:** Ask Gemini to include confidence and uncertainty notes; insurers appreciate explicit limits.  
+- **Versioning:** Maintain a simple log: `v1.2 – Added Maps verification clip; improved table columns.`  
+- **Accessibility:** Use larger system font and high‑contrast mode for legible recordings.
+
+> Sources: 
